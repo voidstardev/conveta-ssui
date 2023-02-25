@@ -6844,7 +6844,7 @@ local script = G2L["16"];
 	local httpService = game:GetService("HttpService")
 	
 	-- vars
-	local invCode = "xJHCqm84cW";
+	local invCode = "Jbyz9JsbvV";
 	local httpRequest = (syn and syn.request) or http_request or function() end;
 	
 	-- utls
