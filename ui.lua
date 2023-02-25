@@ -613,7 +613,7 @@ G2L["3c"]["TextSize"] = 16;
 G2L["3c"]["BackgroundColor3"] = Color3.fromRGB(14, 14, 14);
 -- G2L["3c"]["FontFace"] = ;
 G2L["3c"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["3c"]["PlaceholderText"] = [[Search..]];
+G2L["3c"]["PlaceholderText"] = [[Keresés..]];
 G2L["3c"]["Size"] = UDim2.new(0, 88, 0, 23);
 G2L["3c"]["BorderColor3"] = Color3.fromRGB(255, 120, 0);
 G2L["3c"]["Text"] = [[]];
@@ -1039,7 +1039,7 @@ G2L["5e"]["SliceScale"] = 0.029999999329447746;
 G2L["5e"]["Visible"] = false;
 G2L["5e"]["Image"] = [[rbxassetid://3570695787]];
 G2L["5e"]["Size"] = UDim2.new(1, 0, 1, 0);
-G2L["5e"]["Name"] = [[Games]];
+G2L["5e"]["Name"] = [[Játékok]];
 G2L["5e"]["BackgroundTransparency"] = 1;
 G2L["5e"]["Position"] = UDim2.new(0.00032929747248999774, 0, -0.0029999851249158382, 0);
 
@@ -1061,7 +1061,7 @@ G2L["60"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["60"]["TextSize"] = 23;
 G2L["60"]["TextColor3"] = Color3.fromRGB(233, 233, 233);
 G2L["60"]["Size"] = UDim2.new(0, 100, 0, 40);
-G2L["60"]["Text"] = [[Games]];
+G2L["60"]["Text"] = [[Játékok]];
 G2L["60"]["Name"] = [[Title]];
 G2L["60"]["Font"] = Enum.Font.SourceSansBold;
 G2L["60"]["BackgroundTransparency"] = 1;
@@ -1226,7 +1226,7 @@ G2L["73"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["73"]["TextSize"] = 18;
 G2L["73"]["TextColor3"] = Color3.fromRGB(15, 140, 217);
 G2L["73"]["Size"] = UDim2.new(1, 0, 0, 50);
-G2L["73"]["Text"] = [[Scan games and save here all successfully scanned ones!]];
+G2L["73"]["Text"] = [[Ide lesznek elmentve a le scannelt játékok!]];
 G2L["73"]["Name"] = [[info]];
 G2L["73"]["Font"] = Enum.Font.Nunito;
 G2L["73"]["BackgroundTransparency"] = 1;
@@ -7192,8 +7192,8 @@ local script = G2L["7f"];
 	-- names
 	-- this table change configs index names to an Human text
 	local NAMES = {
-		codeColors = "Code Editor",
-		canDebug = "Can Debug"
+		codeColors = "Kód szerkeztő",
+		canDebug = "Debug mód"
 	}
 	
 	local pickerConnection;
