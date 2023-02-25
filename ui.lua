@@ -7192,8 +7192,8 @@ local script = G2L["7f"];
 	-- names
 	-- this table change configs index names to an Human text
 	local NAMES = {
-		codeColors = "Kód szerkeztő",
-		canDebug = "Debug mód"
+		codeColors = "Code Editor",
+		canDebug = "Can Debug"
 	}
 	
 	local pickerConnection;
