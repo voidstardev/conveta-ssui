@@ -1,22 +1,10 @@
---[=[
- d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
-88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
-88      88    88    88            odD'      88      88    88 88ooo88 
-88  ooo 88    88    88          .88'        88      88    88 88~~~88 
-88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88 
- Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER
-]=]
-
--- Instances: 149 | Scripts: 15 | Modules: 14
 local G2L = {};
 
--- StarterGui.backdoor.exe v8
 G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
 G2L["1"]["ResetOnSpawn"] = false;
-G2L["1"]["Name"] = [[backdoor.exe v8]];
+G2L["1"]["Name"] = [[Conveta SS Premium]];
 G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 
--- StarterGui.backdoor.exe v8.Main
 G2L["2"] = Instance.new("Frame", G2L["1"]);
 G2L["2"]["ZIndex"] = -1;
 G2L["2"]["BorderSizePixel"] = 0;
@@ -26,7 +14,6 @@ G2L["2"]["ClipsDescendants"] = true;
 G2L["2"]["Position"] = UDim2.new(0.20000000298023224, 0, 0.10000000149011612, 0);
 G2L["2"]["Name"] = [[Main]];
 
--- StarterGui.backdoor.exe v8.Main.Topbar
 G2L["3"] = Instance.new("ImageLabel", G2L["2"]);
 G2L["3"]["SliceCenter"] = Rect.new(100, 100, 100, 100);
 G2L["3"]["ScaleType"] = Enum.ScaleType.Slice;
@@ -38,7 +25,6 @@ G2L["3"]["Size"] = UDim2.new(1, 0, 0, 29);
 G2L["3"]["Name"] = [[Topbar]];
 G2L["3"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.Topbar.RightOutline
 G2L["4"] = Instance.new("Frame", G2L["3"]);
 G2L["4"]["ZIndex"] = 3;
 G2L["4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -48,7 +34,6 @@ G2L["4"]["Size"] = UDim2.new(1, 0, 0, 31);
 G2L["4"]["Position"] = UDim2.new(1, -10, 0.5, 0);
 G2L["4"]["Name"] = [[RightOutline]];
 
--- StarterGui.backdoor.exe v8.Main.Topbar.RightOutline.UIListLayout
 G2L["5"] = Instance.new("UIListLayout", G2L["4"]);
 G2L["5"]["VerticalAlignment"] = Enum.VerticalAlignment.Center;
 G2L["5"]["FillDirection"] = Enum.FillDirection.Horizontal;
@@ -56,7 +41,6 @@ G2L["5"]["HorizontalAlignment"] = Enum.HorizontalAlignment.Right;
 G2L["5"]["Padding"] = UDim.new(0, 5);
 G2L["5"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
--- StarterGui.backdoor.exe v8.Main.Topbar.RightOutline.ImageLabel
 G2L["6"] = Instance.new("ImageLabel", G2L["4"]);
 G2L["6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["6"]["ImageColor3"] = Color3.fromRGB(34, 34, 34);
@@ -64,7 +48,6 @@ G2L["6"]["Image"] = [[rbxassetid://4467776646]];
 G2L["6"]["Size"] = UDim2.new(0, 14, 0, 14);
 G2L["6"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.Topbar.RightOutline.ImageLabel.Hitbox
 G2L["7"] = Instance.new("TextButton", G2L["6"]);
 G2L["7"]["TextSize"] = 14;
 G2L["7"]["TextTransparency"] = 1;
@@ -77,7 +60,6 @@ G2L["7"]["Text"] = [[]];
 G2L["7"]["Font"] = Enum.Font.SourceSans;
 G2L["7"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.Topbar.RightOutline.ImageLabel.icon
 G2L["8"] = Instance.new("ImageLabel", G2L["6"]);
 G2L["8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["8"]["ImageColor3"] = Color3.fromRGB(171, 171, 171);
@@ -86,7 +68,6 @@ G2L["8"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["8"]["Name"] = [[icon]];
 G2L["8"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.Topbar.RightOutline.ImageLabel.toggler
 G2L["9"] = Instance.new("ModuleScript", G2L["6"]);
 G2L["9"]["Name"] = [[toggler]];
 
@@ -624,7 +605,7 @@ G2L["3c"]["TextSize"] = 16;
 G2L["3c"]["BackgroundColor3"] = Color3.fromRGB(14, 14, 14);
 -- G2L["3c"]["FontFace"] = ;
 G2L["3c"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-G2L["3c"]["PlaceholderText"] = [[Keresés..]];
+G2L["3c"]["PlaceholderText"] = [[Search..]];
 G2L["3c"]["Size"] = UDim2.new(0, 88, 0, 23);
 G2L["3c"]["BorderColor3"] = Color3.fromRGB(255, 120, 0);
 G2L["3c"]["Text"] = [[]];
@@ -978,6 +959,7 @@ G2L["59"]["Text"] = [[+]];
 G2L["59"]["Font"] = Enum.Font.SourceSans;
 G2L["59"]["BackgroundTransparency"] = 1;
 
+-- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts.1
 G2L["5a"] = Instance.new("ImageButton", G2L["56"]);
 G2L["5a"]["Active"] = false;
 G2L["5a"]["ZIndex"] = 2;
@@ -1236,7 +1218,7 @@ G2L["73"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["73"]["TextSize"] = 18;
 G2L["73"]["TextColor3"] = Color3.fromRGB(15, 140, 217);
 G2L["73"]["Size"] = UDim2.new(1, 0, 0, 50);
-G2L["73"]["Text"] = [[]];
+G2L["73"]["Text"] = [[Scan games and save here all successfully scanned ones!]];
 G2L["73"]["Name"] = [[info]];
 G2L["73"]["Font"] = Enum.Font.Nunito;
 G2L["73"]["BackgroundTransparency"] = 1;
@@ -1444,7 +1426,7 @@ G2L["8b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["8b"]["TextSize"] = 23;
 G2L["8b"]["TextColor3"] = Color3.fromRGB(233, 233, 233);
 G2L["8b"]["Size"] = UDim2.new(0, 80, 0, 40);
-G2L["8b"]["Text"] = [[[Mentés]]];
+G2L["8b"]["Text"] = [[Save]];
 G2L["8b"]["Name"] = [[Title]];
 G2L["8b"]["Font"] = Enum.Font.SourceSansBold;
 G2L["8b"]["BackgroundTransparency"] = 1;
@@ -6843,7 +6825,7 @@ local script = G2L["16"];
 	local httpService = game:GetService("HttpService")
 	
 	-- vars
-	local invCode = "Jbyz9JsbvV";
+	local invCode = "xJHCqm84cW";
 	local httpRequest = (syn and syn.request) or http_request or function() end;
 	
 	-- utls
@@ -6883,7 +6865,7 @@ local script = G2L["16"];
 	hitbox.MouseButton1Click:Connect(function()
 		
 	
-		if not httpRequest then warn("Exploit nem támogatott.") return end
+		if not httpRequest then warn("Exploit not supported. No HTTP found.") return end
 	
 		httpRequest({
 			Url = "http://127.0.0.1:6463/rpc?v=1",
@@ -7202,8 +7184,8 @@ local script = G2L["7f"];
 	-- names
 	-- this table change configs index names to an Human text
 	local NAMES = {
-		codeColors = "Code Editor",
-		canDebug = "Can Debug"
+		codeColors = "Kód szerkeztő",
+		canDebug = "Debug mód"
 	}
 	
 	local pickerConnection;
