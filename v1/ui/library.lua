@@ -1,5 +1,16 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88 
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER
+]=]
+
+-- Instances: 149 | Scripts: 15 | Modules: 14
 local G2L = {};
 
+-- StarterGui.backdoor.exe v8
 G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
 G2L["1"]["ResetOnSpawn"] = false;
 G2L["1"]["Name"] = [[backdoor.exe v8]];
@@ -759,7 +770,7 @@ G2L["48"]["Selectable"] = false;
 G2L["48"]["AnchorPoint"] = Vector2.new(0, 0.5);
 G2L["48"]["Size"] = UDim2.new(1, -40, 1, 0);
 G2L["48"]["Name"] = [[TextLabel]];
-G2L["48"]["Text"] = [[Script mentése]];
+G2L["48"]["Text"] = [[Mentés]];
 G2L["48"]["Font"] = Enum.Font.SourceSans;
 G2L["48"]["Position"] = UDim2.new(0, 30, 0.5, 0);
 G2L["48"]["BackgroundTransparency"] = 1;
@@ -967,7 +978,6 @@ G2L["59"]["Text"] = [[+]];
 G2L["59"]["Font"] = Enum.Font.SourceSans;
 G2L["59"]["BackgroundTransparency"] = 1;
 
--- StarterGui.backdoor.exe v8.Main.BodyClipping.Executor.InnerBody.OpenScripts.1
 G2L["5a"] = Instance.new("ImageButton", G2L["56"]);
 G2L["5a"]["Active"] = false;
 G2L["5a"]["ZIndex"] = 2;
@@ -1151,7 +1161,7 @@ G2L["6b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["6b"]["TextSize"] = 15;
 G2L["6b"]["TextColor3"] = Color3.fromRGB(233, 233, 233);
 G2L["6b"]["Size"] = UDim2.new(0, 100, 0, 20);
-G2L["6b"]["Text"] = [[- Conveta: %d]];
+G2L["6b"]["Text"] = [[- Backdoors: %d]];
 G2L["6b"]["Name"] = [[Backdoors]];
 G2L["6b"]["Font"] = Enum.Font.SourceSans;
 G2L["6b"]["BackgroundTransparency"] = 1;
@@ -1165,7 +1175,7 @@ G2L["6c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["6c"]["TextSize"] = 15;
 G2L["6c"]["TextColor3"] = Color3.fromRGB(233, 233, 233);
 G2L["6c"]["Size"] = UDim2.new(0, 100, 0, 20);
-G2L["6c"]["Text"] = [[- Scannelve: %s]];
+G2L["6c"]["Text"] = [[- Scanned on: %s]];
 G2L["6c"]["Name"] = [[Date]];
 G2L["6c"]["Font"] = Enum.Font.SourceSans;
 G2L["6c"]["BackgroundTransparency"] = 1;
@@ -1226,7 +1236,7 @@ G2L["73"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["73"]["TextSize"] = 18;
 G2L["73"]["TextColor3"] = Color3.fromRGB(15, 140, 217);
 G2L["73"]["Size"] = UDim2.new(1, 0, 0, 50);
-G2L["73"]["Text"] = [[Ide lesznek elmentve a le scannelt játékok!]];
+G2L["73"]["Text"] = [[]];
 G2L["73"]["Name"] = [[info]];
 G2L["73"]["Font"] = Enum.Font.Nunito;
 G2L["73"]["BackgroundTransparency"] = 1;
@@ -1434,7 +1444,7 @@ G2L["8b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["8b"]["TextSize"] = 23;
 G2L["8b"]["TextColor3"] = Color3.fromRGB(233, 233, 233);
 G2L["8b"]["Size"] = UDim2.new(0, 80, 0, 40);
-G2L["8b"]["Text"] = [[Mentés]];
+G2L["8b"]["Text"] = [[[Mentés]]];
 G2L["8b"]["Name"] = [[Title]];
 G2L["8b"]["Font"] = Enum.Font.SourceSansBold;
 G2L["8b"]["BackgroundTransparency"] = 1;
@@ -6873,7 +6883,7 @@ local script = G2L["16"];
 	hitbox.MouseButton1Click:Connect(function()
 		
 	
-		if not httpRequest then warn("Exploit not supported. No HTTP found.") return end
+		if not httpRequest then warn("Exploit nem támogatott.") return end
 	
 		httpRequest({
 			Url = "http://127.0.0.1:6463/rpc?v=1",
